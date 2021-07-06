@@ -1,0 +1,56 @@
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+
+#logo{
+
+    width: 1350px;
+    height: 150px;
+     
+    background-image: url("logo.png");
+    background-size: 350px;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    margin-left: 60px;
+
+}
+
+
+
+.border{
+
+    position:absolute;
+	left: 50%;
+	right: 50%;
+	top: 32%;
+	transform: translate(-50%,-50%);
+	height: 70px;
+	width: 82%;
+	background-image: url("bord.jpg");
+	background-size: cover;
+
+}.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+</style>

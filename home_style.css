@@ -1,0 +1,503 @@
+body{
+	width: 100%;
+}
+
+#logo{
+
+    width: 1350px;
+    height: 70px;
+     background-image: url("logo.png");
+    background-size: 230px;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    margin-left: 60px;
+
+}
+
+.fa {
+
+
+	color: #585858;
+    padding-left: 20px;
+	
+
+
+}
+
+.fa:hover{
+ color:#FF8C00;
+ font-size: 300;
+}
+
+.cont{
+	margin-left: 900px;
+
+}
+
+.search {
+float: left;
+}
+
+
+
+
+.border{
+
+    position:absolute;
+	left: 50%;
+	right: 50%;
+	top: 32%;
+	transform: translate(-50%,-50%);
+	height: 70px;
+	width: 82%;
+	background-image: url("bord.jpg");
+	background-size: cover;
+
+}
+
+
+
+
+
+
+.item-1, 
+.item-2, 
+.item-3 {
+	
+  display: block;
+	top: 2em;
+  
+  width: 60%;
+  
+  font-size: 2em;
+
+	animation-duration: 25s;
+	animation-timing-function: ease-in;
+	
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+
+@keyframes anim-1 {
+
+ 0%, 8.3% { left: -100%; opacity: 0; }
+  8.3%,25% { left: 25%; opacity: 1; }
+
+}
+
+@keyframes slide{
+	50%{
+		background-image: url("p2.jpg");
+	}
+	100%{
+		background-image: url("p3.jpg");
+	}
+}
+
+#triangle_pic{
+	width: 50px;
+	height: 60px;
+	margin-left: 500px;
+	transition: rotate(90deg)
+}
+nav {
+
+	position:absolute;
+	left: 50%;
+	right: 50%;
+	top: 30%;
+	transform: translate(-50%,-50%);
+    padding-top: 15px;
+	text-align: center;
+	height: 50px;
+	width: 80%;
+	background-image:url("headback.jpg");
+	background-size: cover;
+
+}
+
+nav a{
+	color: white;
+	padding: 8px;
+	text-decoration: none;
+	font-family: Arial;
+}
+
+nav a:hover{
+	color:orange;
+	font-weight: bold;
+}
+
+.item-1{
+	animation-name: anim-1;
+}
+
+
+#current{
+	color:orange;
+	font-weight: bold;
+}
+
+
+.mainsec{
+
+    width: 100%;
+	background-image: url("bn.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+    padding-top: 100px;
+    margin-top: 50px;
+  
+
+}
+
+#allumni{
+
+   font-weight: bold;
+   font-family: arial;
+   color: 	#FF8C00;
+   margin-left: 240px;
+   margin-top: 60px;
+   font-size: 60px;
+
+}
+
+
+
+
+
+
+.slide-right {
+  width: 100%;
+  overflow: hidden;
+  margin-left: 500px;
+  max-width: 500px
+}
+
+.slide h1 {
+    color:	#696969;
+	font-family: Arial;
+	font-size: 30px;
+	text-decoration: transparent;
+	margin-left: 240px;
+    animation: 2s slide-right 2s forwards;
+    transform:translateX(-100%);
+}
+
+@keyframes slide-right {
+  to {
+    transform:translateX(0);
+  }
+}
+.signup{
+	margin-left: 240px;
+}
+
+.buttons button{
+
+	border: none;
+	width: 150px;
+	height:50px;
+	background-color: white;
+	color: orange;
+	box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.buttons .signup{
+
+	border: none;
+	width: 150px;
+	height:50px;
+	background-color: white;
+	color: orange;
+	box-shadow: 10px 10px 5px #aaaaaa;
+	text-decoration: none;
+	padding:18px;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+.buttons button:hover{
+	background-color: orange;
+	color: white;
+}
+
+.buttons .signup:hover{
+	background-color: orange;
+	color: white;
+}
+
+
+
+.boxes{
+
+	margin-top: 25px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+	background-color: 	#606060;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	
+
+}
+
+.boxes .box1{
+    margin-left: 10px;
+    
+
+   
+}
+
+.boxes h2{
+	font-size: 20px;
+	color: white;
+	font-family: Arial;
+}
+
+.buttons button:hover{
+	background-color: orange;
+	color: white;
+}
+
+.buttons .box2:hover{
+	background-color: orange;
+	color: white;
+}
+.box1 .imgs{
+
+    width:100%;
+	height: 200px;
+	background-image:url("p1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: center;
+	animation: slide 5s infinite;
+}
+
+.ss{
+	margin-left: 50px;
+	margin-bottom: 20px;
+	border: 2px solid white;
+	padding: 10px;
+	padding-left: 20px;
+    color: white;
+	padding-right: 20px;
+    background-color: #FF8C00;
+
+}
+
+.se{
+	margin-left: 50px;
+	margin-bottom: 20px;
+	border: 2px solid white;
+	padding: 10px;
+	padding-left: 20px;
+    color: white;
+	padding-right: 20px;
+    background-color: #9e9e9e;
+
+}
+
+.sa{
+	margin-left: 50px;
+	margin-bottom: 20px;
+	border: 2px solid white;
+	padding: 10px;
+	padding-left: 20px;
+    color: white;
+	padding-right: 20px;
+    background-color: #FF8C00;
+
+}
+
+.sm{
+	margin-left: 50px;
+	margin-bottom: 20px;
+	border: 2px solid white;
+	padding: 10px;
+	padding-left: 20px;
+    color: white;
+	padding-right: 20px;
+    background-color: #FF8C00;
+
+}
+.box1 h1{
+
+	color: white;
+	font-size: 18px;
+	margin-left: 8px;
+	font-weight: bold;
+	font-family:Helvetica, Arial, sans-serif;
+}
+
+.box1 p{
+	margin-left: 8px;
+	
+}
+
+.box2 .imgs1{
+
+   width:100%;
+	height: 200px;
+	background-image:url("Jobs2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: center;
+
+}
+.box3 .imgs2{
+
+   width:100%;
+	height: 200px;
+	background-image:url("webinar3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: center;
+
+}
+
+.box4 .imgs3{
+
+   width:100%;
+	height: 200px;
+	background-image:url("skills4.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: center;
+
+
+}
+
+.box1{
+	margin-right: 10px;
+	height: 350px;
+	background-color: grey;
+
+	
+
+}
+
+.box2{
+    margin-right: 10px;
+	height: 350px;
+    background-color: orange;
+  }
+.box3{
+
+	margin-right: 10px;
+	height: 350px;
+    background-color: grey;
+ 
+}
+.box4{
+
+	margin-right: 10px;
+	background-color: orange;
+	height: 350px;
+    
+}
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+
+  background-image: url('mind.jpg');
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  align-content: center;
+  border: 1px solid #888;
+  width: 40%;
+  height: 320px;
+
+
+}
+.modal-content h1{
+	margin-left: 10px;
+	color: #FF8C00;
+	text-align: center;
+	font-size: 40px;
+	font-family::Helvetica, Arial, sans-serif; 
+	font-weight: bold;
+
+}
+/* The Close Button */
+.close {
+	margin-right: 25px;
+	margin-top: 10px;
+  color: #aaaaaa;
+  float: right;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.asbuttons a{
+	background-color: 696969;
+	color: white;
+    width: 50px;
+	height: 100px;
+	margin-right: 20px;
+	font-size: 16px;
+	border-bottom: 1px solid white;
+	padding-bottom: 10px;
+}
+
+.asbuttons{
+		margin-top: 180px;
+
+	
+}
+
+#asl{
+	margin-left: 60px;
+}
+
+.asbuttons a:hover{
+	border-bottom:  2px solid white;
+	 cursor: pointer;
+	 
+}
+#Tips{
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-size:10px;
+	
+}
+
+
+footer{
+	width: 100%;
+	height: 50px;
+	background-image:  linear-gradient(to right,  #696969 , orange);
+	text-align: center;
+	color: orange;
+	padding: 10px;
+	font-size: 18px;
+
+}
+
+
+
