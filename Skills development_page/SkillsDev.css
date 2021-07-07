@@ -1,0 +1,87 @@
+body{
+background-image:url("ora.jpg");
+background-size: 100%
+ 
+}
+
+#logo{
+
+    width: 1350px;
+    height: 70px;
+     background-image: url("logo.png");
+    background-size: 240px;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    margin-left: 60px;
+}
+
+
+.courses a.btn.btn-accent{
+  padding: 5px 5px 5px;
+  margin-top: 10px;
+  font-size: 10px;
+}
+.courses a.btn.btn-accent img{
+  margin-left:10px;
+    max-width:20%;
+    height:auto;
+}
+.courses hr {
+  margin-bottom:10px;
+}
+.btn {
+    font-size: 15px;
+    padding: 22px 46px 18px;
+    line-height: 1;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0;
+    position: relative;
+    letter-spacing: 0.3px;
+}
+footer{
+	width: 100%;
+	height: 50px;
+	background-image:  linear-gradient(to right,  #696969 , orange);
+	text-align: center;
+	color: orange;
+	padding: 10px;
+	font-size: 18px;
+}
+
+.slide-right {
+  width: 100%;
+  overflow: hidden;
+  margin-left: 500px;
+  max-width: 500px
+}
+
+.slide h1 {
+    color:	#696969;
+	font-family: Arial;
+	font-size: 30px;
+	text-decoration: transparent;
+	margin-left: 240px;
+    animation: 4s slide-right 2s forwards;
+    transform:translateX(-100%);
+}
+
+@keyframes slide-right {
+  to {
+    transform:translateX(0);
+  }
+}
+
+.headd{
+
+    position:absolute;
+	left: 50%;
+	right: 50%;
+	top: 29%;
+	transform: translate(-50%,-50%);
+	height: 60px;
+	width: 82%;
+	background-image: url("SSSS.png");
+	background-size: cover;
+
+}
